@@ -1,0 +1,21 @@
+#render.yaml (en la raiz de tu repo)
+services:
+  # -------- BACKEND --------
+  - type: web
+    name: Msc-backend
+    env: node
+    branch: main
+    rootDir: backend-mongodb
+    buildCommand: npm install
+    startCommand: npm run start
+    envVars:
+      key: PORT
+      value: "5000"
+      key: MONGODB_URI=mongodb+srv://saavedraasebastian:Ub6joQpBS8DpVPeL@mundoservicios.axobijm.mongodb.net/?retryWrites=true&w=majority&appName=mundoServicios
+      sync: false
+      key: EMAIL_USER=saavedraasebastian@gmail.com
+      sync: false
+      key: EMAIL_APP_PASS=mnzb kcvz wecg qqhv
+      sync: false
+      key: FRONTEND_URL=http://localhost:5173
+      value: 
