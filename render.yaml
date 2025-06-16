@@ -17,5 +17,5 @@ services:
       sync: false
       key: EMAIL_APP_PASS=mnzb kcvz wecg qqhv
       sync: false
-      key: FRONTEND_URL=http://localhost:5173
+      key: FRONTEND_URL
       value: https://pruebafrontend-974b.onrender.com
